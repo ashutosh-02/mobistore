@@ -1,0 +1,13 @@
+.cart-item .cart-controls button {
+  background-color: #2A9D8F !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item .cart-controls button:hover {
+  background-color: #E9C46A !important;
+}

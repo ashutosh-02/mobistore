@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E3F2FD;
+  color: #264653;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  color: #2A9D8F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E9C46A;
+}
+
+button {
+  cursor: pointer;
+}

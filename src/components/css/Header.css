@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #2A9D8F;
+  color: white;
+  border-bottom: 2px solid #E9C46A;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.header .logo a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header .logo a:hover {
+  color: #F4A261;
+}
+
+.header .navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.header .navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.header .navigation a:hover {
+  color: #E9C46A;
+}
+
+.header .cart-icon a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header .cart-icon a:hover {
+  color: #F4A261; 
+}

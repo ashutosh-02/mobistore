@@ -1,0 +1,47 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2A9D8F; /* Primary color */
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 24px;
+}
+
+.navbar .navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar .cart-icon a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar .navigation a {
+    font-size: 16px;
+  }
+}
