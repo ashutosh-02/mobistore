@@ -51,6 +51,7 @@ const App = () => {
   
 
   return (
+    <h2> Click on Home </h2>
     <Router>
       <Header />
       <Routes>
