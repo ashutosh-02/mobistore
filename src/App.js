@@ -51,11 +51,9 @@ const App = () => {
   
 
   return (
-    <h2> Click on Home </h2>
     <Router>
       <Header />
       <Routes>
-        <h2> Click on Home </h2>
         <Route path="/" element={<HomePage products={products} />} />
         <Route path="/shop" element={<ShopPage products={products} />} />
         <Route path="/product/:id" element={<ProductDetailPage products={products} onAddToCart={handleAddToCart} />} />
