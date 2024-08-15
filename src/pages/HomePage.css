@@ -1,5 +1,5 @@
 .homepage {
-  width: 1200px;
+  max-width: 1200px;
   padding: 20px;
   margin: 0 auto;
   font-family: 'Arial', sans-serif; 
@@ -33,7 +33,7 @@
 }
 
 .hero-section h1 {
-  font-size: 48px;
+  font-size: 4vw; /* Responsive font size */
   color: #ffffff;
   z-index: 1;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
@@ -48,7 +48,7 @@
 }
 
 .featured-products h2 {
-  font-size: 28px;
+  font-size: 2.5vw; /* Responsive font size */
   color: #333;
   margin-bottom: 20px;
   text-align: center;
@@ -56,12 +56,14 @@
 
 .product-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .product-card {
-  width: 200px;
+  width: 100%;
+  max-width: 200px; /* Limit the max width */
   border: 1px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
@@ -105,4 +107,41 @@
 
 .product-card button:hover {
   background-color: #0056b3;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 200px;
+  }
+
+  .hero-section h1 {
+    font-size: 6vw; /* Increase font size for smaller screens */
+  }
+
+  .featured-products h2 {
+    font-size: 4vw;
+  }
+
+  .product-card {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    height: 150px;
+  }
+
+  .hero-section h1 {
+    font-size: 8vw;
+  }
+
+  .featured-products h2 {
+    font-size: 5vw;
+  }
+
+  .product-card {
+    max-width: 120px;
+  }
 }
