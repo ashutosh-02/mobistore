@@ -24,6 +24,14 @@ const products = [
   { id: 6, name: 'Samsung Galaxy S24 Ultra 5G', price: 139990, image: product6Img, description: 'Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)' },
   { id: 7, name: 'Redmi Note 13 5G', price: 16999, image: product7Img, description: 'Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) | 5G Ready | 120Hz Bezel-Less AMOLED | 7.mm Slimmest Note Ever | 108MP Pro-Grade Camera' },
   { id: 8, name: 'Redmi Note 13 Pro+', price: 24500, image: product8Img, description: 'Redmi Note 13 Pro+ (Fusion Purple, 8GB RAM, 256GB Storage) | Worlds First Mediatek 7200 Ultra 5G | 200MP Hi-Res Camera | 1.5K Curved AMOLED | 120W HyperCharge' },
+  { id: 9, name: 'POCO X6 Neo 5G', price: 15754, image: product1Img, description: 'POCO X6 Neo 5G (Martian Orange, 8GB RAM, 128GB Storage)' },
+  { id: 10, name: 'realme NARZO N65 5G', price: 14850, image: product2Img, description: 'realme NARZO N65 5G (Amber Gold 8GB RAM, 128GB Storage) India 1st D6300 5G Chipset | Ultra Slim Design | 120Hz Eye Comfort Display | 50MP AI Camera| Charger in The Box' },
+  { id: 11, name: 'Redmi 12 5G', price: 12999, image: product3Img, description: 'Redmi 12 5G Jade Black 8GB RAM 256GB ROM' },
+  { id: 12, name: 'Apple iPhone 15', price: 2999, image: product4Img, description: 'Apple iPhone 15 (128 GB) - Blue' },
+  { id: 13, name: 'Apple iPhone 15 Pro Max', price: 189400, image: product5Img, description: 'Apple iPhone 15 Pro Max (1 TB) - White Titanium' },
+  { id: 14, name: 'Apple iPhone 13', price: 20998, image: product5Img, description: 'Apple iPhone 13 (128GB) - Midnight' },
+  { id: 15, name: 'Apple iPhone 14', price: 20998, image: product5Img, description: 'Apple iPhone 14 (128 GB) - Blue' },
+  { id: 16, name: 'Apple iPhone 13', price: 20998, image: product5Img, description: 'Apple iPhone 13 (256GB) - (Product) RED' },
 ];
 
 const ProductDetailPage = ({ onAddToCart }) => {

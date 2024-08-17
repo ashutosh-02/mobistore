@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import '.css/SearchBar.css';
+import { useNavigate } from 'react-router-dom';
+import '../components/css/SearchBar.css'
 
 const SearchBar = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');
+  const navigate = useNavigate();
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
@@ -10,7 +12,10 @@ const SearchBar = ({ onSearch }) => {
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
-    onSearch(searchTerm);
+    if (onSearch) {
+      onSearch(searchTerm);
+    }
+    navigate('/search');
   };
 
   return (
