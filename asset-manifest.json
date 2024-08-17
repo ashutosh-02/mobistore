@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/mobistore/static/css/main.880a0b86.css",
-    "main.js": "/mobistore/static/js/main.91d13e31.js",
-    "static/js/453.af178710.chunk.js": "/mobistore/static/js/453.af178710.chunk.js",
-    "static/media/product5.jpg": "/mobistore/static/media/product5.b7184a956451b3eb45c9.jpg",
-    "static/media/product3.jpg": "/mobistore/static/media/product3.7502e799b69cec0062c8.jpg",
-    "static/media/product8.jpg": "/mobistore/static/media/product8.7db2546a929ba0e431a0.jpg",
-    "static/media/product6.jpg": "/mobistore/static/media/product6.810dd3e7bd68fdc97c34.jpg",
-    "static/media/homeimg.jpg": "/mobistore/static/media/homeimg.43d4357f6dfd40cfe7e2.jpg",
-    "static/media/product2.jpg": "/mobistore/static/media/product2.60e35fe8498e45fbc447.jpg",
-    "static/media/product7.jpg": "/mobistore/static/media/product7.0afece52a556e0a14d9e.jpg",
-    "static/media/product4.jpg": "/mobistore/static/media/product4.5bc52208e157c40c9cac.jpg",
-    "static/media/product1.jpg": "/mobistore/static/media/product1.401f06178cc112cc38e0.jpg",
-    "index.html": "/mobistore/index.html",
-    "main.880a0b86.css.map": "/mobistore/static/css/main.880a0b86.css.map",
-    "main.91d13e31.js.map": "/mobistore/static/js/main.91d13e31.js.map",
-    "453.af178710.chunk.js.map": "/mobistore/static/js/453.af178710.chunk.js.map"
+    "main.css": "/mobistoreup/static/css/main.ae364e49.css",
+    "main.js": "/mobistoreup/static/js/main.706e192e.js",
+    "static/js/453.af178710.chunk.js": "/mobistoreup/static/js/453.af178710.chunk.js",
+    "static/media/product5.jpg": "/mobistoreup/static/media/product5.b7184a956451b3eb45c9.jpg",
+    "static/media/product10.jpg": "/mobistoreup/static/media/product10.5ca322d5289359e954fd.jpg",
+    "static/media/product3.jpg": "/mobistoreup/static/media/product3.7502e799b69cec0062c8.jpg",
+    "static/media/product8.jpg": "/mobistoreup/static/media/product8.7db2546a929ba0e431a0.jpg",
+    "static/media/product6.jpg": "/mobistoreup/static/media/product6.810dd3e7bd68fdc97c34.jpg",
+    "static/media/product13.jpg": "/mobistoreup/static/media/product13.0c575d89ea5749fd30f6.jpg",
+    "static/media/homeimg.jpg": "/mobistoreup/static/media/homeimg.43d4357f6dfd40cfe7e2.jpg",
+    "static/media/product2.jpg": "/mobistoreup/static/media/product2.60e35fe8498e45fbc447.jpg",
+    "static/media/product7.jpg": "/mobistoreup/static/media/product7.0afece52a556e0a14d9e.jpg",
+    "static/media/product4.jpg": "/mobistoreup/static/media/product4.5bc52208e157c40c9cac.jpg",
+    "static/media/product1.jpg": "/mobistoreup/static/media/product1.401f06178cc112cc38e0.jpg",
+    "static/media/product11.jpg": "/mobistoreup/static/media/product11.196b22b73e686dde7fdb.jpg",
+    "static/media/product16.jpg": "/mobistoreup/static/media/product16.17f4ed41ac93a53af1d2.jpg",
+    "static/media/product15.jpg": "/mobistoreup/static/media/product15.e05551b6d068c762f8a7.jpg",
+    "static/media/product12.jpg": "/mobistoreup/static/media/product12.05ea251803c0ab91c95c.jpg",
+    "index.html": "/mobistoreup/index.html",
+    "main.ae364e49.css.map": "/mobistoreup/static/css/main.ae364e49.css.map",
+    "main.706e192e.js.map": "/mobistoreup/static/js/main.706e192e.js.map",
+    "453.af178710.chunk.js.map": "/mobistoreup/static/js/453.af178710.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.880a0b86.css",
-    "static/js/main.91d13e31.js"
+    "static/css/main.ae364e49.css",
+    "static/js/main.706e192e.js"
   ]
 }
