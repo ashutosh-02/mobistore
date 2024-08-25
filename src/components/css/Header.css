@@ -2,52 +2,73 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
   background-color: #2A9D8F;
-  color: white;
-  border-bottom: 2px solid #E9C46A;
+  padding: 15px 30px;
 }
 
-.header .logo {
+.logo a {
+  color: #FFFFFF;
   font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.header .logo a {
-  color: white;
   text-decoration: none;
-  transition: color 0.3s ease;
+  font-weight: bold;
 }
 
-.header .logo a:hover {
-  color: #F4A261;
-}
-
-.header .navigation {
-  display: flex;
-  gap: 20px;
-}
-
-.header .navigation a {
-  color: white;
+.navigation a {
+  margin: 0 15px;
+  color: #FFFFFF;
   text-decoration: none;
   font-size: 18px;
-  transition: color 0.3s ease;
+  transition: color 0.3s;
 }
 
-.header .navigation a:hover {
+.navigation a:hover {
   color: #E9C46A;
 }
 
-.header .cart-icon a {
-  color: white;
-  font-size: 24px;
-  text-decoration: none;
-  position: relative;
-  transition: color 0.3s ease;
+.icons {
+  display: flex;
+  align-items: center;
 }
 
-.header .cart-icon a:hover {
-  color: #F4A261; 
+.icon {
+  color: #FFFFFF;
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #E9C46A;
+}
+
+.user-icon {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 120px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: #2A9D8F;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-menu a:hover {
+  background-color: #2A9D8F;
+  color: #FFFFFF;
 }
